@@ -2,7 +2,11 @@
 
 namespace VpniFy.Backend.Model
 {
-	public class Role : IdentityRole
+	public class Role : IdentityRole<long>
 	{
-	}
+        public Role()
+        {
+            
+        }
+    }
 }

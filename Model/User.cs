@@ -2,7 +2,11 @@
 
 namespace VpniFy.Backend.Model
 {
-	public class User : IdentityUser
+	public class User : IdentityUser<long>
 	{
-	}
+        public User()
+        {
+                
+        }
+    }
 }
